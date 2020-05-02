@@ -1,0 +1,14 @@
+Package: hubviz
+Type: Package
+Title: hubViz: A novel tool for Hub-centric Visualization
+Version: 0.1
+Date: 2019-02-15
+Author: Jin Hyun Nam <namj@musc.edu>, Jonghyun Yun <jonghyun.yun@gmail.com>, Ick Hoon jin <ijin@nd.edu>, Dongjun Chung <chungd@musc.edu>
+Maintainer: Dongjun Chung <chungd@musc.edu>
+Depends: R (>= 3.3.0)
+Description: This package provides funtions for fitting hubviz, a novel tool for hub-centric visualization 
+License: GPL (>=2)
+Encoding: UTF-8
+Imports: Rcpp, MCMCpack, ggplot2, ggrepel, coda
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.0
