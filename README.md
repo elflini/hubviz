@@ -29,7 +29,7 @@ To install the developmental versions of 'hubviz' package, it's easiest to use t
 ```
 #install.packages("devtools")
 library(devtools)
-install_github("dongjunchung/hubviz")
+install_github("elflini/hubviz")
 ```
 
 References
