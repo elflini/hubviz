@@ -13,7 +13,7 @@ hubviz(dataset, nsample = nrow(dataset), nitem = ncol(dataset),
   ndim = 2, niter = 30000, nburn = 5000, nthin = 5, nprint = 100,
   jump_theta = 1, jump_w = 0.2, pr_mean_theta = 0,
   pr_sd_theta = 10, pr_mean_w = 0, prior_a = 0.001,
-  prior_b = 0.001, w.ci=0.5, option = FALSE, verbose = FALSE, cores = 1)
+  prior_b = 0.001, w.ci=0.5, option = FALSE, verbose = TRUE, cores = 1)
 }
 
 \arguments{
@@ -51,7 +51,7 @@ hubviz(dataset, nsample = nrow(dataset), nitem = ncol(dataset),
 
 \item{option}{Logical. If TRUE then print MCMC iteration (default: FALSE)}
 
-\item{verbose}{Logical. If TRUE then return MCMC results (default: FALSE)}
+\item{verbose}{Logical. If TRUE then return MCMC results (default: TRUE)}
 
 \item{cores}{Number of CPUs to be used for computing (default: 1)}
 }
