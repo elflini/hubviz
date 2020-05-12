@@ -148,10 +148,11 @@ setMethod(
     
     ggplot(position, aes(x = position1, y = position2)) + 
       xlim(x1,x2) + ylim(y1,y2) +
-      geom_point(aes(size = radius*2), alpha = 0.5,color='darkblue') +
-      theme(legend.title=element_blank())+
+      geom_point(color="red")+
+      geom_point(aes(size = radius),pch=21, alpha = 1,color='darkblue') +
+      theme(legend.position="none", legend.title=element_blank())+
       scale_size(range = c(0.5, 12))+
-    geom_text_repel(aes(y = position2 + 0.25), label=rownames(position), segment.color = "grey50")    
+    geom_text_repel(aes(y = position2 + radius), label=rownames(position), segment.color = "grey50")    
     
     
     
